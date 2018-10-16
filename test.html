@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <link href="https://cdn.easyx.cn/prism/1.14.0_a/prism.min.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="https://cdn.easyx.cn/prism/1.14.0_a/prism.min.js"></script>
+<script src="https://cdn.bootcss.com/angular.js/1.4.6/angular.min.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+		.content {
+			position: relative;
+			min-height:100%;		/*content-body 高度不足时，保持 footer 在底部！！*/
+		}
+
+		.header {
+			height: 50px;
+			background-color: red;
+		}
+
+		.content-body {
+			padding-bottom: 50px; /*预留空间给footer*/
+			background-color: #00ff21;
+		}
+
+		.footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+			background-color: #e1a9a9;
+		}
+	</style>
+</head>
+<body><div style="width:400px">
+<div style="background: #8e8; overflow:auto">
+    <img src="https://f.myid.email/noavatar.png" align="right">
+    "HTML文字环绕图片布局HTML文字环绕图片布局HTML文字环绕图片布局HTML文字</div>
+</div>
+<script>
+$(function(){
+	var guids = ['00a76d4a-e4aa-43de-a30e-e7e054e24c2a', '49da8409-8da6-4cee-ba7a-cc02bd45e679'];
+	var s = JSON.stringify(guids);
+	console.log(s);
+})
+</script>
+</body>
+</html>
