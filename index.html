@@ -1,58 +1,87 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
-<html xmlns="http://www.w3.org/1999/xhtml">  
+﻿<!doctype html>
+<html>
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Demo �� Textarea Ԫ�صĹ��λ��</title>
-    <style type="text/css">
-        #result {
-            font-size: 18px;
-            line-height: 25px;
-            padding-left: 20px;
-        }
-
-        .main-content {
-            width: 100%;
-            height: 400px;
-            background: #3b568e;
-
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .logo {
-            width: 280px;
-            height: 95px;
-            background: #8992a1;
-
-
-        }
-
-        .description {
-            width: 200px;
-            height: 40px;
-            background: #7ca77c;
-
-        }
-
-        .menu {
-            width: 170px;
-            height: 50px;
-            background: #8f6590;
-
-        }
-    </style>
-</head>  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>135雨毛球费用明细</title>
+	<link rel="stylesheet" href="https://cdn.easyx.cn/bootstrap/4.1.3/css/bootstrap.min.css" />
+	<style>
+	</style>
+</head>
 <body>
-    <div class="main-content">
-			<div class="logo">
+	<table class="table">
+		<thead>
+			<tr class="table-success">
+				<th scope="col">###</th>
+				<th scope="col">收支</th>
+				<th scope="col">备注</th>
+				<th scope="col">贴</th>
+			</tr>
+		</thead>
+		<tbody id="tb-body">
+		</tbody>
+	</table>
 
-			</div>
-			<div class="description">
+	<script src="https://cdn.easyx.cn/jquery/3.3.1/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.easyx.cn/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+	<script>
+		$(function () {
+			var datas = [
+				{
+					event : '余额',
+					cast : 124,
+					msg : '',
+					thumb : ''
+			},
+				{
+					event : '新会员',
+					cast : 2600,
+					msg: '毅、冷、扣、武、勇、梁、飞猪、刘政委、凤、熬、菲、随缘、x',
+					thumb: '20220522.jpg'
+			},
+				{
+					event : '冲卡',
+					cast : -2000,
+					msg : '',
+					thumb : ''
+			},
+				{
+					event : '2022-05-23',
+					cast : 188,
+					msg : '球费',
+					thumb: '20220523.jpg'
+				},
+			];
 
-			</div>
-        <div class="menu">
+			var balance = 0;
+			for (var n = 0; n < datas.length; n++) {
+				var clas = '';
+				if (datas[n].cast < 0)
+					clas = ' style="color:Red"';
 
-        </div>
-    </div>
-</body>  
-</html>  
+				var img = '';
+				if (datas[n].thumb.length > 0)
+					img = '<a target="_blank" href="' + datas[n].thumb + '">||||</a>';
+
+				$("#tb-body").append('<tr><th scope="row">' + datas[n].event + '</th><th' + clas + '>' + datas[n].cast + '</th><td style="font-size:12px">' + datas[n].msg + '</td><td>' + img + '</td></tr>');
+				balance += datas[n].cast;
+			}
+
+			$("#tb-body").append('<tr style="color:BLUE"><th scope="row">余额</th><th>' + balance + '</th><td></td><td></td></tr>');
+		})
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
