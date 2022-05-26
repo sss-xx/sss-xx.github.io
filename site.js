@@ -44,7 +44,7 @@
 				if (datas[n].thumb.length > 0)
 					img = '<a target="_blank" href="' + datas[n].thumb + '">||||</a>';
 
-				$("#tb-body").append('<tr><th scope="row">' + datas[n].event + '</th><th' + clas + '>' + datas[n].cast + '</th><td' + datas[n].msg + '</td><td>' + img + '</td></tr>');
+				$("#tb-body").append('<tr><th scope="row">' + datas[n].event + '</th><th' + clas + '>' + datas[n].cast + '</th><td>' + datas[n].msg + '</td><td>' + img + '</td></tr>');
 				balance += datas[n].cast;
 			}
 
