@@ -32,6 +32,12 @@
 					msg : '球10桶',
 					thumb: ''
 				},
+				{
+					event : '2022-05-27',
+					cast : 172,
+					msg : '球费',
+					thumb: '20220527.jpg'
+				},
 			];
 
 			var balance = 0;
