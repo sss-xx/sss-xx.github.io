@@ -62,6 +62,12 @@
 					msg : '球费',
 					thumb: '20220608.png'
 				},
+				{
+					event : '2022-06-10',
+					cast : 45,
+					msg : '球费',
+					thumb: '20220610.png'
+				},
 			];
 
 			var balance = 0;
