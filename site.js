@@ -23,7 +23,7 @@
 				{
 					event : '2022-05-23',
 					cast : 188,
-					msg : '球费',
+					msg : '',
 					thumb: '20220523.jpg'
 				},
 				{
@@ -35,43 +35,43 @@
 				{
 					event : '2022-05-27',
 					cast : 172,
-					msg : '球费',
+					msg : '',
 					thumb: '20220527.png'
 				},
 				{
 					event : '2022-05-30',
 					cast : 72.8+13,// 南风天 6.5 折 + 个人红包
-					msg : '球费',
+					msg : '',
 					thumb: '20220530.png'
 				},
 				{
 					event : '2022-06-01',
 					cast : 80,
-					msg : '球费',
+					msg : '',
 					thumb: '20220601.png'
 				},
 				{
 					event : '2022-06-06',
 					cast : 56,
-					msg : '球费',
+					msg : '',
 					thumb: '20220606.png'
 				},
 				{
 					event : '2022-06-08',
 					cast : 96,
-					msg : '球费',
+					msg : '',
 					thumb: '20220608.png'
 				},
 				{
 					event : '2022-06-10',
 					cast : 45,
-					msg : '球费',
+					msg : '',
 					thumb: '20220610.png'
 				},
 				{
 					event : '2022-06-13',
 					cast : 76,
-					msg : '球费',
+					msg : '',
 					thumb: '20220613.png'
 				},
 			];
