@@ -106,6 +106,6 @@
 			var cls = ' style="color: #24ed24; font-size: 32px"';
 				if (balance < 0)
 					cls = ' style="color:Red;  font-size: 32px"';
-			balance = Math.round(balance);
+			balance = balance.toFixed(1);
 			$("#tb-body").append('<tr><td scope="row" style="font-size:28px">余额</td><th ' + cls +  '>' + balance + '</th><td></td><td></td></tr>');
 		})
