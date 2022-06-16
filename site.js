@@ -76,16 +76,17 @@
 				},
 				{
 					event : '2022-06-15',
-					cast : 80,
-					msg : '',
-					thumb: '20220615.png'
-				},
-				{
-					event : '2022-06-15',
 					cast : -590,
 					msg : '球',
 					thumb: ''
 				},
+				{
+					event : '2022-06-15',
+					cast : 80,
+					msg : '',
+					thumb: '20220615.png'
+				},
+				
 			];
 
 			var balance = 0;
@@ -105,5 +106,6 @@
 			var cls = ' style="color: #24ed24; font-size: 32px"';
 				if (balance < 0)
 					cls = ' style="color:Red;  font-size: 32px"';
+			balance = Math.round(balance);
 			$("#tb-body").append('<tr><td scope="row" style="font-size:28px">余额</td><th ' + cls +  '>' + balance + '</th><td></td><td></td></tr>');
 		})
