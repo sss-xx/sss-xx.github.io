@@ -21,19 +21,19 @@
 					thumb : ''
 			},
 				{
-					event : '2022-05-23',
+					event : '20220523',
 					cast : 188,
 					msg : '',
 					thumb: '20220523.jpg'
 				},
 				{
-					event : '2022-05-25',
+					event : '20220525',
 					cast : -580,
 					msg : '球',
 					thumb: ''
 				},
 				{
-					event : '2022-05-27',
+					event : '20220527',
 					cast : 172,
 					msg : '',
 					thumb: '20220527.png'
@@ -45,48 +45,59 @@
 					thumb: '20220530.png'
 				},
 				{
-					event : '2022-06-01',
+					event : '20220601',
 					cast : 80,
 					msg : '',
 					thumb: '20220601.png'
 				},
 				{
-					event : '2022-06-06',
+					event : '20220606',
 					cast : 56,
 					msg : '',
 					thumb: '20220606.png'
 				},
 				{
-					event : '2022-06-08',
+					event : '20220608',
 					cast : 96,
 					msg : '',
 					thumb: '20220608.png'
 				},
 				{
-					event : '2022-06-10',
+					event : '20220610',
 					cast : 45,
 					msg : '',
 					thumb: '20220610.png'
 				},
 				{
-					event : '2022-06-13',
+					event : '20220613',
 					cast : 76,
 					msg : '',
 					thumb: '20220613.png'
 				},
 				{
-					event : '2022-06-15',
+					event : '20220615',
 					cast : -590,
 					msg : '球',
 					thumb: ''
 				},
 				{
-					event : '2022-06-15',
+					event : '20220615',
 					cast : 80,
 					msg : '',
 					thumb: '20220615.png'
 				},
-				
+				{
+					event : '20220617',
+					cast : 76,
+					msg : '',
+					thumb: '20220617.png'
+				},
+				{
+					event : '20220620',
+					cast : 76,
+					msg : '',
+					thumb: '20220620.png'
+				},
 			];
 
 			var balance = 0;
