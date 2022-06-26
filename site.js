@@ -98,6 +98,18 @@
 					msg : '',
 					thumb: '20220620.png'
 				},
+				{
+					event : '20220622',
+					cast : 128,
+					msg : '',
+					thumb: '20220622.png'
+				},
+				{
+					event : '20220624',
+					cast : 148,//+20 亦晨红包
+					msg : '',
+					thumb: '20220624.png'
+				},
 			];
 
 			var balance = 0;
