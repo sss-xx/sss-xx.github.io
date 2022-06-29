@@ -110,6 +110,12 @@
 					msg : '',
 					thumb: '20220624.png'
 				},
+				{
+					event : '20220627',
+					cast : 60,
+					msg : '',
+					thumb: '20220627.png'
+				},
 			];
 
 			var balance = 0;
