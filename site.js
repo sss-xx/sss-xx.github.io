@@ -122,6 +122,12 @@
 					msg : '',
 					thumb: '20220629.png'
 				},
+				{
+					event : '20220629',
+					cast : -600,
+					msg : '球',
+					thumb: ''
+				},
 			];
 
 			var balance = 0;
