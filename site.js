@@ -27,7 +27,7 @@
 					thumb: '20220523.jpg'
 				},
 				{
-					event : '20220525',
+					event : '-------',
 					cast : -580,
 					msg : '球',
 					thumb: ''
@@ -75,7 +75,7 @@
 					thumb: '20220613.png'
 				},
 				{
-					event : '20220615',
+					event : '-------',
 					cast : -590,
 					msg : '球',
 					thumb: ''
@@ -123,7 +123,7 @@
 					thumb: '20220629.png'
 				},
 				{
-					event : '20220629',
+					event : '-------',
 					cast : -600,
 					msg : '球',
 					thumb: ''
