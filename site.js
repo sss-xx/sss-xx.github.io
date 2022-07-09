@@ -21,9 +21,9 @@
 					thumb : ''
 			},
 				{
-					event : '20220523-1',
+					event : '20220523',
 					cast : 188,
-					msg : '',
+					msg : '1',
 					thumb: '20220523.jpg'
 				},
 				{
@@ -33,45 +33,45 @@
 					thumb: ''
 				},
 				{
-					event : '20220527-2',
+					event : '20220527',
 					cast : 172,
-					msg : '',
+					msg : '2',
 					thumb: '20220527.png'
 				},
 				{
-					event : '20220530-3',
+					event : '20220530',
 					cast : 72.8+13,// 南风天 6.5 折 + 个人红包
-					msg : '',
+					msg : '3',
 					thumb: '20220530.png'
 				},
 				{
-					event : '20220601-4',
+					event : '20220601',
 					cast : 80,
-					msg : '',
+					msg : '4',
 					thumb: '20220601.png'
 				},
 				{
-					event : '20220606-5',
+					event : '20220606',
 					cast : 56,
-					msg : '',
+					msg : '5',
 					thumb: '20220606.png'
 				},
 				{
-					event : '20220608-6',
+					event : '20220608',
 					cast : 96,
-					msg : '',
+					msg : '6',
 					thumb: '20220608.png'
 				},
 				{
-					event : '20220610-7',
+					event : '20220610',
 					cast : 45,
-					msg : '',
+					msg : '7',
 					thumb: '20220610.png'
 				},
 				{
-					event : '20220613-8',
+					event : '20220613',
 					cast : 76,
-					msg : '',
+					msg : '8',
 					thumb: '20220613.png'
 				},
 				{
@@ -81,45 +81,45 @@
 					thumb: ''
 				},
 				{
-					event : '20220615-9',
+					event : '20220615',
 					cast : 80,
-					msg : '',
+					msg : '9',
 					thumb: '20220615.png'
 				},
 				{
-					event : '20220617-10',
+					event : '20220617',
 					cast : 76,
-					msg : '',
+					msg : '10',
 					thumb: '20220617.png'
 				},
 				{
-					event : '20220620-11',
+					event : '20220620',
 					cast : 76,
-					msg : '',
+					msg : '11',
 					thumb: '20220620.png'
 				},
 				{
-					event : '20220622-12',
+					event : '20220622',
 					cast : 128,
-					msg : '',
+					msg : '12',
 					thumb: '20220622.png'
 				},
 				{
-					event : '20220624-13',
+					event : '20220624',
 					cast : 148,//+20 亦晨红包
-					msg : '',
+					msg : '13',
 					thumb: '20220624.png'
 				},
 				{
-					event : '20220627-14',
+					event : '20220627',
 					cast : 60,
-					msg : '',
+					msg : '14',
 					thumb: '20220627.png'
 				},
 				{
-					event : '20220629-15',
+					event : '20220629',
 					cast : 203,	// 35+16+20+20+112
-					msg : '',
+					msg : '15',
 					thumb: '20220629.png'
 				},
 				{
@@ -129,21 +129,21 @@
 					thumb: ''
 				},
 				{
-					event : '20220704-16',
+					event : '20220704',
 					cast : 192,	// 20+16红包
-					msg : '',
+					msg : '16',
 					thumb: '20220704.png'
 				},
 				{
-					event : '20220706-17',
+					event : '2022070617',
 					cast : 140,
 					msg : '',
 					thumb: '20220706.png'
 				},
 				{
-					event : '20220708-18',
+					event : '20220708',
 					cast : 128,
-					msg : '',
+					msg : '18',
 					thumb: '20220708.png'
 				},
 			];
