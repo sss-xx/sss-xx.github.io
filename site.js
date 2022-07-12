@@ -146,6 +146,12 @@
 					msg : '18',
 					thumb: '20220708.png'
 				},
+				{
+					event : '20220711',
+					cast : 60,
+					msg : '19',
+					thumb: '20220711.png'
+				},
 			];
 
 			var balance = 0;
