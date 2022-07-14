@@ -12,7 +12,7 @@
 					event : '新会员',
 					cast : 2600,
 					msg: '13*200',
-					thumb: 'vip2.jpg'
+					thumb: 'vip2.png'
 			},
 				{
 					event : '充卡',
