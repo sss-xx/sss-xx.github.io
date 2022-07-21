@@ -20,6 +20,24 @@
 					msg : '',
 					thumb : ''
 			},
+				{
+					event : '20220715',
+					cast : 20,
+					msg : '',
+					thumb : '20220715.png'
+			},
+				{
+					event : '20220718',
+					cast : 40,
+					msg : '',
+					thumb : '20220718.png'
+			},
+				{
+					event : '202207120',
+					cast : 120,
+					msg : '',
+					thumb : '20220720.png'
+			},
 			];
 
 			var balance = 0;
